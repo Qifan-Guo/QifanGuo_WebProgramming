@@ -1,0 +1,53 @@
+body {
+    background-image: url("img/whiteBrickWall.jpg");
+}
+
+
+
+
+#introductionSection{
+	position: relative;
+	margin-left: 2%;
+}
+#banner {
+	height: 100px;
+	overflow: hidden;
+	margin:2%;
+	position: relative;
+}
+ #banner p{
+ 	position: absolute;
+ 	width: 100%;
+ 	color: white;
+ 	top:60px;
+ 	left:10px;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	
+}
+
+#banner h1 {
+    color: white;
+    text-align: left;
+    position: absolute;
+	width: 100%;
+	margin:0;
+    top: 0;
+    left:10px;
+}
+table {
+	margin-top: 30px;
+	margin-left: 2%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 300px;
+}
+
+td, th {
+    border:transparent;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color:#98c5f9;
+}
