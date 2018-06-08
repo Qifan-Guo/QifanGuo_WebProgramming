@@ -15,11 +15,12 @@ body {
 #introductionSection img{
 	float:left;
 }
+
 #Education{
 	position: absolute;
 	left:320;
 }
-p{
+p.title{
 	font-size: 20px;
 	margin-bottom: 0;
 }
@@ -49,6 +50,7 @@ p{
  	color: white;
  	top:60px;
  	left:10px;
+ 	bottom: 100px;
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	
 }
